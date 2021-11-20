@@ -1,0 +1,751 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(/image/image/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 930px 600px;
+    background-position: center top 600px;
+
+    padding: 0;
+    margin: 0;
+  
+}
+
+.container{
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.text{
+    color: #7D7987;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v5-latin-300.woff2') format('woff2'), 
+         url('../fonts/mulish-v5-latin-300.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v5-latin-regular.woff2') format('woff2'),
+         url('../fonts/mulish-v5-latin-regular.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/mulish-v5-latin-600.woff2') format('woff2'), 
+         url('../fonts/mulish-v5-latin-600.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v5-latin-700.woff2') format('woff2'),
+         url('../fonts/mulish-v5-latin-700.woff') format('woff'); 
+  }
+
+        /*
+            header
+        */
+
+.header-info{
+    background-image: url(/image/image/trafalgarlogo.svg);
+    background-repeat: no-repeat;
+}    
+
+.header-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 500px;
+}
+
+.nav-items{
+   padding-left: 40px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#7D7987;
+    line-height:22,59px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 400;
+}
+
+.nav-link-active{
+    color: black;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+   
+}
+
+
+
+    /* 
+        Healthcare      
+    */
+
+.healthcare{
+   display: flex;
+   flex-wrap:wrap;
+   margin-bottom: 195px;
+   background-image: url(/image/image/healthimage.png),
+   url(/image/image/element.png);
+   background-repeat: no-repeat;
+   background-position: right,left 0 top 0;
+   background-size: 695px 610px,130px 118px;
+   padding-bottom: 190px;
+}
+
+.health-left{
+    text-align: left;  
+    margin-right: 80px;
+    margin-top: 100px;
+}
+
+.health-title{
+    font-family:' Mulish','Arian',sans-serif;
+    width: 450px;
+    font-weight: 700;
+    font-size: 48px;
+    Line-height :56px;
+}
+
+.health-text{
+    width: 430px; 
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    Line-height: 32px;
+    Line-height:32px;
+}
+
+.health-botton{
+    width: 200px;
+    background-color: #458FF6;
+    border: 1px solid  #458FF6;
+    border-radius: 55px;
+    text-align: center; 
+}
+
+.health-link{
+    color:#ffffff;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    text-decoration: none;
+    Line-height:60px
+}
+
+.health-image{
+    margin:0;
+}
+
+        /*
+             servislar
+         */
+
+.service-title{
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;  
+    font-size:36px;
+    line-height:32px;
+
+}
+
+.service-line{
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    margin: 0 auto; 
+    display: block; 
+    margin-bottom: 40px;
+}
+
+.service-text{
+    width: 952px;
+    font-size: 18px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+    margin-bottom: 90px;
+    Line-height:30px;
+    margin-left: 70px;
+}
+
+    /*
+        square
+     */
+
+
+.square-list{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    Line-height:56px;
+}
+
+.square{
+    width: 350px;
+    text-align: left;
+    list-style-type:none;
+    border-radius: 20px;
+    margin: 20px;
+    padding-bottom: 47px;
+    box-shadow: 20px 0px rgb(244, 244, 248),
+     -10px 20px rgb(244, 244, 248);
+}
+
+.square-title{
+    padding-top: 180px;
+    padding-left: 39px;
+    Line-height:30px;
+}
+
+.search-square{
+    background-image: url(/image/image/1.png);
+    background-repeat: no-repeat;
+    background-size: 92px 90px;
+    background-position: left 37px top 54px;
+}
+
+.square .text{
+    padding-left: 39px;
+    width: 275px;
+    font-family: 'Mulish', 'Arian',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    Line-height:28px
+}
+
+.online-square{
+    background-image: url(/image/image/2.png);
+    background-repeat: no-repeat;
+    background-size: 62px 85px;
+    background-position: left 37px top 54px;
+}
+
+.consult-square{
+    background-image: url(/image/image/3.png);
+    background-repeat: no-repeat;
+    background-size: 67px 95px;
+    background-position: left 37px top 54px;
+}
+
+.details-square{
+    background-image: url(/image/image/4.png);
+    background-repeat: no-repeat;
+    background-size: 67px 95px;
+    background-position: left 37px top 54px;
+}
+
+.care-square{
+    background-image:url(/image/image/5.png);
+    background-repeat: no-repeat;
+    background-size: 82px 71px;
+    background-position: left 37px top 54px;
+}
+
+.tracking-square{
+    background-image: url(/image/image/6.png);
+    background-repeat: no-repeat;
+    background-size: 70px 95px;
+    background-position: left 37px top 54px;
+}
+
+.square-botton{
+    width: 200px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    text-align: center;
+    margin-left: 480px; 
+}
+
+.square-link{
+    color: #458FF6;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.square-botton{
+    margin-bottom: 210px;
+}
+
+    /*
+        providers
+     */
+
+.providers-section .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 230px;
+}
+
+.providers{
+    padding-left: 730px;
+    text-align: left;
+    padding-top: 40px;
+    background-image: url(/image/image/healthimage.png);
+    background-size: 650px 477px;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+}
+
+.providers-title{
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;   
+    Line-height:56px
+
+}
+
+.providers-line{
+    width: 56px;
+    height: 2px;
+    background-color: #000000; 
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.providers-text{
+    width: 410px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.providers-botton{
+    width: 200px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    text-align: center;
+}
+
+.providers-link{
+    color: #458FF6;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+}
+    /* 
+        mobile apps 
+    */
+
+.apps-section .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 220px;
+    background-image: url(/image/image/appsimage.png);
+    background-repeat: no-repeat;
+    background-size: 665px 434px;
+    background-position: right;
+    padding-bottom: 100px;
+}
+
+.apps-left{
+    width: 400px;
+    text-align: left;
+    margin-right: 80px;
+}
+
+.apps-title{
+    font-size: 36px;
+    width: 250px;
+    margin-bottom: 30px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    Line-height:48px
+}
+
+.apps-line{
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.apps-text{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.apps-botton{
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    text-align: center;
+}
+
+.apps-link{
+    text-decoration: none;
+    color:#458FF6;
+    font-size:18px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.bottom-strelka{
+    margin-left: 6px;
+    color: #458FF6;
+}
+
+    /*
+        .customer
+     */
+
+.customer{
+    width: 1220px;
+    height: 425px;
+    background-color:#67C3F3;
+    margin-bottom: 220px;
+    padding-top: 50px;
+    color: white;
+    border-radius: 24px;
+}
+
+.customer-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.customer-line{
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-bottom: 35px;
+    
+}
+
+.customer-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.customer-image{
+    margin-left: 110px;
+    margin-right: 30px;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.name{
+    margin-top: 25px;
+    text-align: left;
+    margin-right: 110px;
+}
+
+.customer-name{
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.customer-job{
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.customer-text{
+    width: 400px;
+    margin-top: 35px;
+    font-size: 19px;
+    font-family: 'Mulish','Arian', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+}
+
+/* 
+    iconlar
+*/
+
+.customer-icon{
+    width: 330px;
+    height: 20px;
+    padding-left: 450px;
+    display: flex;
+    padding-top: 35px;
+}
+
+.icon-info{
+    width: 94px;
+    padding: 0 80px;
+    display: flex;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.circle-icon{
+    width: 10px;
+    height: 10px;
+    background-color: #5B9BF3;
+    border: 6px solid #5B9BF3;
+    margin-right: 15px;
+    border-radius: 100px;
+    opacity: 30%;
+}
+
+.icon-active{
+    opacity: 100%;
+}
+
+.right-icon{
+    margin-left: 95px;
+}
+
+    /* 
+        article
+    */
+
+
+.article-titles{
+    font-size:36px;
+    margin-bottom: 25px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.article-line{
+    width: 56px;
+    height: 2px;
+    border: 1px solid black;
+    text-align:center;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 75px;
+}
+
+.article-title{
+    font-size: 21px;
+    margin-bottom: 12px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.article-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.medical{
+    width: 350px;
+    margin:0;
+    text-align: left;
+    margin-bottom: 69px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    box-shadow: 15px 15px rgb(244, 244, 248)
+}
+
+.article .text{
+    margin-bottom: 25px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.article-link{
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.disease{
+    margin-right: 35px;
+}
+
+.article-link{
+    color: #4089ED;
+    font-size:17px;
+    text-decoration: none;
+    line-height: 60px;
+
+}
+
+.right-strelka{
+    margin-left: 8px;
+    padding-top: 1px;
+}
+
+.herbal{
+    margin-right: 35px;
+}
+
+.latest{
+    width: 265px;
+    margin-left: 30px;
+}
+
+
+.article-botton{
+    width: 200px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 220px;
+}
+
+    /* 
+       footer
+    */
+
+.site-finish{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    height: 432px;
+    padding-top: 115px;
+    justify-content: center;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #ffffff;
+}
+
+.site-info{
+    margin-right: 140px;
+    width: 380px;
+}
+
+.finish-site-logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.finish-logo{
+    font-size: 26px;
+    color: #5B9BF3;
+    background-color: white;
+    border-radius: 100px;
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+
+.trafalgar-word{
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+}
+
+.finish-text{
+    width: 391px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+}
+
+.site-adress{
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+}
+
+.finish-items-link{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.information{
+    padding-top: 15px;
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 300;
+    width: 170px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.strong-link{
+    margin-bottom: 30px;
+}
+
+.finish-link{
+    margin-bottom: 15px;
+}
+
+.link-end{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-first{
+    font-family: 'Mulish','Arian',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.company-items{
+   margin-right: 20px;
+}
+
+.company-word{
+    margin-top: 30px;
+}
+
+.region-items{
+    margin-right: 20px;
+}
+
+.region-word{
+    margin-top: 30px;
+}
+
+.help-word{
+    margin-top: 30px;
+}
